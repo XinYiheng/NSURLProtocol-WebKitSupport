@@ -14,9 +14,10 @@
 @property (nonatomic) __kindof UIView* webView;
 
 @end
-
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wincomplete-implementation"
 @implementation ViewController
-
+#pragma clang diagnostic pop
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.

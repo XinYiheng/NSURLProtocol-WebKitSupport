@@ -15,8 +15,10 @@
 
 @end
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wincomplete-implementation"
 @implementation RootViewController
-
+#pragma clang diagnostic pop
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
